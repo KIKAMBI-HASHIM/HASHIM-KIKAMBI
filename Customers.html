@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<metsa charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MY WEBSITE</title>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<style>
+   *{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  }
+  body{
+    background-color: rgb(223, 223, 223);
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    }
+    .container a{
+      color: rgb(48, 165, 194);
+    }
+    header{
+      display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 7%;
+        background-color: #5c5656;
+    }
+    .logo{
+      cursor: pointer;
+    }
+    h1{ 
+      font-family: ChunkFiveRegular, Georgia, serif;
+      font-weight: bold;
+      color: orange;
+      margin-top: 1%;
+    }
+    h2{ 
+      color: orange;
+      font-family: Fixedsys;
+      font-weight: bold;
+      font-size: 25px;
+      margin-top: 3%;
+      }
+    
+    nav ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 0px 20px;
+     }
+    nav ul li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+     color: rgb(48, 165, 194);
+    }
+    nav ul li a:hover{
+     color: rgb(255, 94, 0);
+     font-size:120%;
+     }
+     nav ul li .active{
+     color: rgb(255, 94, 0);
+     font-size:120%;
+     }
+button{
+  padding: 9px 25px;
+  background-color: rgba(11, 144, 177, 0.911);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover{
+  background-color: rgba(13, 121, 148, 0.726);
+  font-size:100%;
+}
+button .text{
+  background-color: rgb(255, 255, 255);
+}
+.png{
+  width: auto;
+  height: 30px;
+  cursor: pointer;
+  margin: 10px;
+}
+.png1{
+  width: auto;
+  height: 30px;
+  margin: 0%;
+}
+.wik{
+  top: 40%;
+}
+.png2{
+  width: auto;
+  height: 30px;
+  cursor: pointer;
+}
+.links{
+  margin-left: 7%;
+  margin-top: 4%;
+}
+.search-bar{
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  border-radius: 60px;
+  padding: 3px 15px;
+  backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input{
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #303030;
+}
+::placeholder{
+  color: #303030;
+}
+.search-bar button{
+  width: 25px;
+}
+.search-bar button{
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  cursor: pointer;
+}
+.thecard{
+  margin-top: 2%;
+  position: relative;
+  display: inline-block;
+  width: 295px;
+  height: 250px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+.thefront{
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+border-radius: 20px;
+background-color: rgb(223, 223, 223);
+background-position: center;
+background-size:cover;
+}
+.thefront .umovies{
+position: relative;
+top: 15%;
+}
+.theback{
+  position: absolute;
+  width: 100%;
+height: 100%;
+backface-visibility: hidden;
+background-color: rgb(223, 223, 223);
+background-position: center;
+background-size: cover;
+transform: rotateY(180deg);
+}
+.theback button{
+  background-color: rgba(11, 144, 177, 0.911);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.theback button a{
+  text-decoration: none;
+  color: white;
+}
+.theback button:hover{
+  background-color: rgba(10, 123, 151, 0.911);
+  font-size: 17px;
+}
+</style>
+</head>
+<body> 
+    <div class="container">
+        <header>
+          <img class="logo" src="kinglogo.png" width="80" height="auto">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="services.html">SERVICES </a></li>
+                    <li><a href="Customers.html"class="active">CUSTOMERS </a></li>
+                    <li><a href="contact.html">CONTACTS</a></li>
+                </ul>
+            </nav>
+          <a class="cta" href="logins.php"><button>HIRE ME</button></a>
+        </header>
+<center>
+  <h1>CUSTOMERS</h1>
+    <form action="https://www.google.com/search" method="get" class="search-bar">
+        <input type="text" name="q"placeholder="Enter keyword">
+        <button type="submit"><img src="search.png" width="auto" height="40"></button>
+        </form>
+<div class="thecard">
+<div class="thefront"><img src="CUSTOMERS/TWAKAL.png"width="auto" height="200"></div>
+<div class="theback">
+  <img src="CUSTOMERS/TWAKAL.png"width="auto" height="100"><br>
+  <h2>TAWAKAL TRAVEL</h2>
+  <div class="pngs">
+  <a href="https://twitter.com/Hashim_kikambi"><img class="png" src="twitter.png" ></a>
+  <a href="https://www.facebook.com/kiks.bats/about_overview"><img class="png" src="facebook.png" ></a>
+  <a href="https://www.instagram.com/hashim_kikambi/"><img class="png" src="instagram.png" ></a>
+  <a href=""><img class="png" src="telegram.png" ></a>
+</div>
+  <button><a href="tawakal/index.html">VISIT</a></button>
+</div>
+</div>
+<div class="thecard">
+  <div class="thefront"><img src="CUSTOMERS/UMOVIES.png"width="auto" height="150"class="umovies"></div>
+  <div class="theback">
+    <img src="CUSTOMERS/UMOVIES.png"width="auto" height="100"><br>
+    <h2>UMOVIES</h2>
+    <a href="https://twitter.com/Hashim_kikambi"><img class="png" src="twitter.png" ></a>
+    <a href="https://www.facebook.com/kiks.bats/about_overview"><img class="png" src="facebook.png" ></a>
+    <a href="https://www.instagram.com/hashim_kikambi/"><img class="png" src="instagram.png" ></a>
+    <a href=""><img class="png" src="telegram.png" ></a>
+    <button><a href="umovies/index.html">VISIT</a></button>
+  </div>
+  </div>
+  <div class="thecard">
+    <div class="thefront"><img src="CUSTOMERS/TWAMBI.png"width="340" height="200"></div>
+    <div class="theback">
+      <img src="CUSTOMERS/TWAMBI.png"width="auto" height="100"><br>
+      <h2>TWAMBI MOTORS</h2>
+      <a href="https://twitter.com/Hashim_kikambi"><img class="png" src="twitter.png" ></a>
+      <a href="https://www.facebook.com/kiks.bats/about_overview"><img class="png" src="facebook.png" ></a>
+      <a href="https://www.instagram.com/hashim_kikambi/"><img class="png" src="instagram.png" ></a>
+      <a href="https://www.linkedin.com/in/hashim-kikambi-b68620237/"><img class="png" src="linkedin.png" ></a>
+      <a href=""><img class="png" src="telegram.png" ></a>
+      <button><a href="TWAMBI MOTORS/home.html">VISIT</a></button>
+    </div>
+    </div>
+    <div class="thecard">
+      <div class="thefront"><img src="CUSTOMERS/SMART.png"width="auto" height="250"></div>
+      <div class="theback">
+        <img src="CUSTOMERS/SMART.png"width="auto" height="100"><br>
+        <h2>TWAMBI SMART BUTCHER</h2>
+        <a href="https://twitter.com/Hashim_kikambi"><img class="png" src="twitter.png" ></a>
+        <a href="https://www.facebook.com/kiks.bats/about_overview"><img class="png" src="facebook.png" ></a>
+        <a href="https://www.instagram.com/hashim_kikambi/"><img class="png" src="instagram.png" ></a>
+        <a href="https://www.linkedin.com/in/hashim-kikambi-b68620237/"><img class="png" src="linkedin.png" ></a>
+        <a href=""><img class="png" src="telegram.png" ></a>
+        <button><a href="umovies/index.html">VISIT</a></button>
+      </div>
+      </div>
+      <div class="thecard">
+        <div class="thefront"><img src="CUSTOMERS/FARM.png"width="auto" height="250"></div>
+        <div class="theback">
+          <img src="CUSTOMERS/FARM.png"width="auto" height="100"><br>
+          <h2>TWAMBI POUTRY FARM</h2>
+          <a href="https://twitter.com/Hashim_kikambi"><img class="png" src="twitter.png" ></a>
+          <a href="https://www.facebook.com/kiks.bats/about_overview"><img class="png" src="facebook.png" ></a>
+          <a href="https://www.instagram.com/hashim_kikambi/"><img class="png" src="instagram.png" ></a>
+          <a href="https://www.linkedin.com/in/hashim-kikambi-b68620237/"><img class="png" src="linkedin.png" ></a>
+          <a href=""><img class="png" src="telegram.png" ></a>
+          <button><a href="umovies/index.html">VISIT</a></button>
+        </div>
+        </div>
+</center>
+</div>
+</body>
+</html>

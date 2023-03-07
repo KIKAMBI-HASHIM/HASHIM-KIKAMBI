@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<metsa charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MY WEBSITE</title>
+<style>
+  *{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  }
+  body{
+    background-color: rgb(223, 223, 223);
+  }
+  .container{
+width: 100%;
+height: 100%;
+}
+.container a{
+  color: rgb(48, 165, 194);
+}
+header{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 7%;
+    background-color: #5c5656;
+}
+.logo{
+  cursor: pointer;
+}
+h1{ 
+  font-family: ChunkFiveRegular, Georgia, serif;
+  font-weight: bold;
+  color: orange;
+  margin-top: 1%;
+}
+h2{ 
+  color: orange;
+  font-family: Fixedsys;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 3%;
+  }
+
+nav ul li{
+ list-style: none;
+ display: inline-block;
+ padding: 0px 20px;
+ }
+nav ul li a{
+transition: all 0.3s ease 0s;
+text-decoration: none;
+color: rgb(255, 255, 255) ;
+}
+nav ul li a:hover{
+ color: rgb(255, 94, 0);
+ font-size:120%;
+ }
+ nav ul li .active{
+ color: rgb(255, 94, 0);
+ font-size:120%;
+ }
+button{
+  padding: 9px 25px;
+  background-color: rgba(11, 144, 177, 0.911);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover{
+  background-color: rgba(13, 121, 148, 0.726);
+  font-size:100%;
+}
+button .text{
+  background-color: rgb(255, 255, 255);
+}
+.detel{
+ margin-left: 8%;
+ margin-top: 19%;
+ }
+.detel h3{
+ font-size: 70px;
+ color: #000000;
+ margin-bottom: 20px;
+}
+
+span{
+  color: orange;}
+
+.detel p{
+ color: #555;
+ line-height: 22px;
+}
+
+
+.detel a{
+ background:#212121;
+ padding: 10px 18px;
+ text-decoration: none;
+ font-weight: bold;
+ color: rgb(250, 205, 6);
+ display: inline-block;
+ margin:30px 0;
+ border-radius: 5px;
+}
+
+  .card{
+            width: 550px;
+            height: 295px;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            margin: 4px 4px;
+            margin-left: 30px;
+            align-items: center;
+            background-position: center;
+            background-size: cover;
+            transition: 0.5s;
+        }
+        .card1{
+            background-image: url(cctv.jpg);
+        }
+        .card2{
+            background-image: url(access.jpg);
+        }
+        .card3{
+            background-image: url(network.jpg);
+        }
+        .card4{
+            background-image: url(web1.jpg);
+        }
+        
+        .card h5{
+            color: #000000;
+            text-shadow: 0 0 5px #ffffff;
+        }
+        .card p{
+            color: #000000;
+            text-shadow: 0 0 15px rgb(255, 255, 255);
+            font-size: 10px;
+        }
+        .card h6{
+            width: 65px;
+            margin-top: 5%;
+            font-weight: bolder;
+            padding: 8px 10px;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            box-sizing: content-box;
+            border-radius: 50px;
+        }
+        .pngs{
+            margin-top: 15%;
+            margin-left: 80%;
+        }
+        .png1{
+            width: 25px;
+            padding: 13px 10px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+        }
+        .png1:hover{
+            transform: translate(5px);
+        }
+        .png{
+            width: 10px;
+            height: auto;
+        }
+</style>
+</head>
+<body> 
+    <div class="container">
+        <header>
+          <img class="logo" src="kinglogo.png" width="80" height="auto">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html"class="active">ABOUT </a></li>
+                    <li><a href="Customers.html">CUSTOMERS </a></li>
+                    <li><a href="services.html">SERVICES </a></li>
+                    <li><a href="contact.html">CONTACTS</a></li>
+                </ul>
+            </nav>
+          <a class="cta" href="logins.php"><button>HIRE ME</button></a>
+        </header>
+        <center><h1>ABOUT</h1>
+          <h3>WHAT I DO</h3> 
+           <div class="card card1">
+            <h5>CCTV instalation</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+              Explicabo delectus facilis aspernatur amet assumenda ea, est similique, <br>
+              vel dolorem voluptatibus et nesciunt! Quo eaque assumenda minima dicta<br>
+              exercitationem saepe. Aspernatur.</p>
+               <h6><img src="starg.png" class="png">
+                <img src="starg.png" class="png">
+                <img src="starg.png" class="png">
+                <img src="starb.png" class="png">
+                <img src="starb.png" class="png"></h6>
+                
+                <div class="pngs">
+                   <button><a href="vid.mp4"><img src="review.png" class="png1"></a></button>
+                   
+                    </div>
+        </div>
+        <div class="card card2">
+            <h5>Access contral</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+              Explicabo delectus facilis aspernatur amet assumenda ea, est similique, <br>
+              vel dolorem voluptatibus et nesciunt! Quo eaque assumenda minima dicta<br>
+              exercitationem saepe. Aspernatur.</p>
+               <h6><img src="starg.png" class="png">
+                <img src="starg.png" class="png">
+                <img src="starg.png" class="png">
+                <img src="starb.png" class="png">
+                <img src="starb.png" class="png"></h6>
+      
+                <div class="pngs">
+                  <button><a href="vid.mp4"><img src="review.png" class="png1"></a></button>
+                   
+                    </div>
+        </div>
+        <div class="card card3">
+            <h5>Network managements</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+              Explicabo delectus facilis aspernatur amet assumenda ea, est similique, <br>
+              vel dolorem voluptatibus et nesciunt! Quo eaque assumenda minima dicta<br>
+              exercitationem saepe. Aspernatur.</p>
+                <h6><img src="starg.png" class="png">
+                <img src="starg.png" class="png">
+                <img src="starg.png" class="png">
+                <img src="starb.png" class="png">
+                <img src="starb.png" class="png"></h6>
+                
+                <div class="pngs">
+                  <button><a href="vid.mp4"><img src="review.png" class="png1"></a></button>
+                   
+                    </div>
+        </div>
+        <div class="card card4">
+            <h5>Website development</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+              Explicabo delectus facilis aspernatur amet assumenda ea, est similique, <br>
+              vel dolorem voluptatibus et nesciunt! Quo eaque assumenda minima dicta<br>
+              exercitationem saepe. Aspernatur.</p>
+                <h6><img src="starg.png" class="png">
+                <img src="starg.png" class="png">
+                <img src="starg.png" class="png">
+                <img src="starb.png" class="png">
+                <img src="starb.png" class="png"></h6>
+                
+                <div class="pngs">
+                  <button><a href="vid.mp4"><img src="review.png" class="png1"></a></button>
+                   
+                    </div>
+        </div>
+        </center>
+          </div>
+</body>
+</html>
